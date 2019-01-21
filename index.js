@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors())
 
 // rotas
-app.get('*', (req, res) => res.send('top'))
+app.get('*', (req, res) => res.send('toop'))
 
 const port = process.env.PORT || 8080
 app.listen(port, () => console.log(`App listening on port ${port}!`))
